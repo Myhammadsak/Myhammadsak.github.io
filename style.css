@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.header{
+    font-family: Montserrat;
+    background: url('../img/Desktop.png') no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+}
+.headerLink{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 150%;
+}
+.header{
+    padding: 0px 0;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 40px;
+}
+.headerWarp{
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+.headerMenu{
+    display: flex;
+}
+.headerItem{
+    margin-right: 30px;
+    margin-top: 10px;    
+}
+.btn{
+    color: white;
+    background-color: #156963;
+    border: 0px;
+    padding: 8px 20px;
+}
+.headerBtnWhite{
+    background-color: white;
+    color: black;
+}
+.headerImg{
+    margin-top: 10px;    
+}
+/* main */
+
+.mainInfo{
+    max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    padding: 182px 0 0 100px;
+}
+.mainTitle{
+    color: #156963;
+    font-size: 65px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.mainText{
+    color: #2C1500;
+    margin-bottom: 55px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+}
+.mainBtn{
+    color: white;
+}
+.headerSection{
+    display: flex;
+    align-items: center;
+}
+.info{
+    margin-left: 685px;
+}
+.mainBtn{
+    font-size: 32px;
+    padding: 39px 49px;
+    width: 400px;
+
+}
+.mainBtnWhite{
+    background-color: white;
+    color: #156963;
+}
+.buttonText{
+    color: #333333;
+}
+.mainButtons{
+    margin-left: 680px;
+    padding: 110px 0 0 0;
+}
+/* information */
+.informationInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 142px 56px 82px;
+    
+}
+.informationTitle{
+    display: flex;
+}
+.informatiomItem{
+    padding: 22px 16px;
+    font-family: Montserrat;
+    align-items: center ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E0E0E0;
+    width: 300px;
+    height: 155px;
+}
+.information{
+    height: 50vh;
+}
+.informationMainText{
+    font-weight: 700;
+}
+.informationText{
+    font-weight: 300;
+}
+/* sell */
+.mainselection {
+    overflow:hidden;
+    width:350px;
+    margin-left:35px;
+    background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
+}
+select {
+    border:0;
+    background:transparent;
+    height:32px;
+    border:1px solid #d8d8d8;
+    width:200px;
+    
+}
+.sellInformation{
+    display: flex;
+}
+.sellInfo{
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+.sellItem{
+    
+    justify-content: space-between;
+    text-align: center;
+    padding: 22px 16px;
+    font-family: Montserrat;
+    width: 300px;
+    height: 155px;
+}
+.sellImg{
+    height: 217px;
+    width: 217px;
+}
+.hrOne{
+    height: 1px;
+    color: #E0E0E0;
+    width: 100%;
+}
+.hrMain{
+    padding: 16px 56px 24px;
+}
+.sellTitleText{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.sellInformation{
+    padding: 0px 56px;
+}
+.mainselection{
+    margin-left: 1097px;
+}
+/* Gaid */
+.gaid{
+    height: 100vh;
+}
+.gaidTitle{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.gaidTitleText{
+    font-weight: 300;
+    font-size: 28px;
+}
+.gaidText{
+    display: flex;
+    padding: 79px 56px 0px;
+}
+.image1{
+    margin-left: 109px;
+    height: 608px;
+    width: 513px;
+}
+.gaidMain{
+    max-width: 800px;
+}
+.image2{
+    padding: 115px 0 0 0;
+    height: 250px;
+    width: 568px;
+}
+/* shop */
+.shop{
+    height: 50vh;
+    background: url('../img/bg-get\ \(1\).png') no-repeat center center / cover;
+}
+.shopTitle{
+    max-width: 500px;
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.shopBtn{
+    padding: 10px 42px;
+}
+.shopMain{
+    padding: 88px 592px 88px 153px;
+}
+/* footer */
+
